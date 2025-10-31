@@ -30,6 +30,7 @@ export default function RootLayout({
       >
         <nav className="flex max-w-3xl mx-auto items-center justify-center gap-4">
           {/* Prefetched when the link is hovered or enters the viewport */}
+          <a href="/">Home</a>
           <Link href="/blog">Blog</Link>
           {/* No prefetching */}
           <a href="/contact">Contact</a>
